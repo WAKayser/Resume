@@ -5,16 +5,16 @@
         Wouter
         <span class="text-primary"> Kayser</span>
       </h1>
-      <div class="subheading mb-5">
+      <div class="subheading mb-3">
         Jacoba van Beierenlaan 39, 2613 HX Delft
         <a
           href="mailto:site@wakayser.nl"
         >mail @wakayser.nl</a>
       </div>
-      <p class="lead mb-5">
-        I am an Electrical Engineering Master student. Currently I am following courses on Wireless Networking susch as Cellular Networks or IoT. These coureses are supplemented by a heavy mathematical basis. On the side I enjoy several small programming projects. My remaining time is dedicated to committee work at the Study Association "Electrotechnische Vereeniging" for Electrical Engineering.
+      <p class="lead mb-3">
+        I am an Electrical Engineering Master student. Currently I am following courses on Wireless Networking such as Cellular Networks and IoT, but also on Quantum Networking. These courses are powered by other heavy mathematical basis. On the side I enjoy several small programming projects. My remaining time is dedicated to committee work at several organizations. 
       </p>
-      <p class="lead mb-5">
+      <p class="lead mb-4">
         Get in contact via mail, or my socials:
       </p>
       <div class="social-icons">

@@ -1,7 +1,14 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
-      <span class="d-block d-lg-none">Wouter Kayser</span>
+      <span class="d-block d-lg-none w-20">   <g-image
+          alt="Image of Wouter"
+          src="../assets/images/profile.jpg"
+          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+          width="64"
+          height="64"
+        /> &nbsp; &nbsp; Wouter Kayser</span>
+
       <span class="d-none d-lg-block">
         <g-image
           alt="Image of Wouter"
@@ -26,10 +33,10 @@
           <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#extra')">Extracurriculars</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#extra')">Extracurriculars</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
         </li>
       </ul>
     </div>
@@ -44,6 +51,7 @@
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
+  font-size: 1.2rem;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
@@ -65,7 +73,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 18rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {

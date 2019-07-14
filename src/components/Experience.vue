@@ -1,29 +1,39 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
     <div class="w-100">
-      <h2 class="mb-1">Experience</h2>
+      <h2 class="mb-5">Experience</h2>
 
-      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div class="resume-content">
-          <h3 class="mb-0">Research Intern</h3>
-          <div class="subheading mb-3">TNO: Electronic Defence</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="resume-item mb-5">
+        <div class="resume-content d-flex flex-column flex-md-row justify-content-between mb-3">
+          <div>
+            <h3 class="mb-0">TNO: Electronic Defence</h3>
+            <div class="subheading">Research Intern</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Sep. 2016 - Feb. 2017</span>
+          </div>
         </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">September 2016 - February 2017</span>
-        </div>
+      <p>
+        yada yada yada vakken keuze bla dingehaskljdfhlasdkfjhpas;oidjf;asdjfh;oasdhjfjkasdhflashdfp;oiaskjhldkfjh dsfkjhasldkfjhalsdjfhals;oduyfhaskljdh asdlkjfhaslkdjfhlaskdjhf  sdlkjfhaslkdjfhlaskdjh sdjklfhal;osdhf sjkldfhalisdfhlkj asdjklfh aslkjdfh 
+      </p>
       </div>
 
-      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div class="resume-content">
-          <h3 class="mb-0">Student Assistent</h3>
-          <div class="subheading mb-3">TU Delft</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <div class="resume-item mb-5">
+        <div class="resume-content d-flex flex-column flex-md-row justify-content-between mb-3">
+          <div>
+            <h3 class="mb-0">Student Assistent</h3>
+            <div class="subheading">TU Delft</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Feb. 2019 - July 2019</span>
+          </div>
         </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">February 2019 - July 2019</span>
-        </div>
+      <p>
+        yada yada yada vakken keuze bla dingehaskljdfhlasdkfjhpas;oidjf;asdjfh;oasdhjfjkasdhflashdfp;oiaskjhldkfjh dsfkjhasldkfjhalsdjfhals;oduyfhaskljdh asdlkjfhaslkdjfhlaskdjhf  sdlkjfhaslkdjfhlaskdjh sdjklfhal;osdhf sjkldfhalisdfhlkj asdjklfh aslkjdfh 
+      </p>
       </div>
+
     </div>
   </section>
 </template>

@@ -1,10 +1,12 @@
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
+  max-width: 500 rem;
 
   .resume-item {
     .resume-date {
+      font-size: 1.5em;
+      font-weight: 800;
       min-width: none;
     }
   }
@@ -16,6 +18,8 @@ section.resume-section {
 
     .resume-item {
       .resume-date {
+        font-size: 1.5em;
+        font-weight: 800;
         min-width: 18rem;
       }
     }

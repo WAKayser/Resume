@@ -30,8 +30,9 @@ export default {
     Experience,
     Education,
     Skills,
-    Interests,
     Extracurriculars,
+    Interests,
+
   },
   metaInfo: {
     title: "Wouter Kayser",
@@ -47,7 +48,7 @@ export default {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .fa-ul > li {
