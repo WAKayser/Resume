@@ -22,7 +22,6 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
-import Awards from "../components/Awards";
 
 export default {
   components: {
@@ -34,8 +33,8 @@ export default {
     Awards
   },
   metaInfo: {
-    title: "Gridsome Starter Resume",
-    titleTemplate: "%s - Create your resume quick and easy!"
+    title: "Wouter Kayser",
+    titleTemplate: "%s - An Online Resume"
   }
 };
 </script>
