@@ -22,6 +22,7 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
+import Awards from "../components/Awards";
 
 export default {
   components: {
