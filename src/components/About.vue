@@ -8,35 +8,24 @@
       <div class="subheading mb-5">
         Jacoba van Beierenlaan 39, 2613 HX Delft
         <a
-          href="mailto:name@email.com"
-        >name@email.com</a>
+          href="mailto:site@wakayser.nl"
+        >mail @wakayser.nl</a>
       </div>
-      <p
-        class="lead mb-5"
-      >I am experienced in Vue.js and React.js in which I produce high quality code for my clients that are both well performing and well tested. I focus on solving problems, not only technical problems but creating an awesome experience for the users of my software both visual and accessible. Mixing powerful tools and knowledge about the users brings visual UI's to life and leads to webpages being accessible and useful.</p>
       <p class="lead mb-5">
-        Get your own resume started using this template with Gridsome here:
-        <a
-          href="https://github.com/LokeCarlsson/gridsome-starter-resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Github repo</a>.
+        I am an Electrical Engineering Master student. Currently I am following courses on Wireless Networking susch as Cellular Networks or IoT. These coureses are supplemented by a heavy mathematical basis. On the side I enjoy several small programming projects. My remaining time is dedicated to committee work at the Study Association "Electrotechnische Vereeniging" for Electrical Engineering.
+      </p>
+      <p class="lead mb-5">
+        Get in contact via mail, or my socials:
       </p>
       <div class="social-icons">
-        <a href="https://linkedin.com/in/lokecarlsson" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/wouter-kayser-337b26119/" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fab', 'linkedin']"/>
         </a>
-        <a href="https://github.com/LokeCarlsson" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Werser" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fab', 'github']"/>
         </a>
-        <a href="https://twitter.com/carlssonloke" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'twitter']"/>
-        </a>
-        <a href="https://www.facebook.com/carlssonloke" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/wouterkayser" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fab', 'facebook']"/>
-        </a>
-        <a href="https://loke.dev" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fas', 'rss']"/>
         </a>
       </div>
     </div>

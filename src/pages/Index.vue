@@ -11,7 +11,7 @@
       <hr class="m-0">
       <Interests/>
       <hr class="m-0">
-      <Awards/>
+      <Extracurriculars/>
     </div>
   </Layout>
 </template>
@@ -22,7 +22,7 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
-import Awards from "../components/Awards";
+import Extracurriculars from "../components/Extra";
 
 export default {
   components: {
@@ -31,7 +31,7 @@ export default {
     Education,
     Skills,
     Interests,
-    Awards
+    Extracurriculars,
   },
   metaInfo: {
     title: "Wouter Kayser",
@@ -59,7 +59,7 @@ export default {
   font-size: 3rem;
 }
 
-.dev-icons .list-inline-item svg:hover {
+  .dev-icons .list-inline-item svg:hover {
   color: var(--primary);
 }
 
