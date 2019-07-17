@@ -8,54 +8,10 @@ import {
   library
 } from '@fortawesome/fontawesome-svg-core'
 
-import {
-  faTrophy,
-  faRss,
-  faCheck
-} from '@fortawesome/free-solid-svg-icons'
-import {
-  faGithub,
-  faTwitter,
-  faFacebook,
-  faLinkedin,
-  faHtml5,
-  faJsSquare,
-  faCss3Alt,
-  faAngular,
-  faReact,
-  faNodeJs,
-  faSass,
-  faLess,
-  faWordpress,
-  faGulp,
-  faGrunt,
-  faNpm,
-} from '@fortawesome/free-brands-svg-icons'
-import {
-  FontAwesomeIcon
-} from '@fortawesome/vue-fontawesome'
+import { faGithub, faFacebook, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(
-  faGithub,
-  faTwitter,
-  faFacebook,
-  faLinkedin,
-  faTrophy,
-  faHtml5,
-  faCss3Alt,
-  faJsSquare,
-  faAngular,
-  faReact,
-  faNodeJs,
-  faSass,
-  faLess,
-  faWordpress,
-  faGulp,
-  faGrunt,
-  faNpm,
-  faRss,
-  faCheck,
-)
+library.add(faGithub, faFacebook, faLinkedin)
 
 export default function (Vue, {
   head,

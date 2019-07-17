@@ -1,17 +1,12 @@
 <template>
   <Layout>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 extra-pad">
       <About/>
-      <hr class="m-0">
       <Experience/>
-      <hr class="m-0">
       <Education/>
-      <hr class="m-0">
       <Skills/>
-      <hr class="m-0">
-      <Interests/>
-      <hr class="m-0">
       <Extracurriculars/>
+      <Interests/>
     </div>
   </Layout>
 </template>
@@ -21,8 +16,9 @@ import About from "../components/About";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
-import Interests from "../components/Interests";
 import Extracurriculars from "../components/Extra";
+import Interests from "../components/Interests";
+
 
 export default {
   components: {
@@ -65,8 +61,8 @@ export default {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
   max-width: 75rem;
 }
 
@@ -81,9 +77,12 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+  extra-pad {
+    padding-top: 100px;
+  }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;

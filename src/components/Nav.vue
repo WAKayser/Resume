@@ -52,7 +52,7 @@
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   font-size: 1.2rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
@@ -65,7 +65,7 @@
     text-align: center;
     position: fixed;
     top: 0;
-    left: 0;
+    left: calc(30% - 300px);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -115,4 +115,5 @@
     display: block;
   }
 }
+
 </style>
