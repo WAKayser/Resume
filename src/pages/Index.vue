@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="container-fluid p-0 extra-pad">
+    <div class="container-fluid p-0">
       <About/>
       <Experience/>
       <Education/>
@@ -76,9 +76,6 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
-  }
-  extra-pad {
-    padding-top: 100px;
   }
 }
 

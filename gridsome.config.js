@@ -1,12 +1,18 @@
 module.exports = {
-  siteName: 'Gridsome starter resume',
-  siteDescription: 'A starter project for Gridsome with Bootstrap for you to quickly build a resume.',
-  siteUrl: 'https://gridsome-starter-resume.loke.dev',
-  plugins: [{
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-72659574-11'
-      }
+  siteName: 'Wouter Kayser Personal site',
+  siteDescription: 'Personal blog for summaries and projects',
+  siteUrl: 'https://www.wakayser.nl',
+  plugins: [
+    {
+        use: '@gridsome/source-filesystem',
+        options: {
+          path: 'posts/*.md',
+          typeName: 'Post',
+          route: '/post/:slug',
+        },
+        remark: {
+        plugins: ['remark-math', 'remark-html-katex', 'remark-html', '@gridsome/remark-prismjs']
+    }
     },
     {
       use: '@gridsome/plugin-sitemap',
@@ -19,5 +25,5 @@ module.exports = {
     loaderOptions: {
       scss: {}
     }
-  }
+  },
 }
