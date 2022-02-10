@@ -20,7 +20,7 @@
     "gridsome": "^0.5.8",
     "gridsome-cli": "0.0.1",
     "katex": "^0.11.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "npm": "^6.9.0",
     "rehype-katex": "^1.2.0",
     "remark-html-katex": "^1.2.0",
